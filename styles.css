@@ -1,0 +1,155 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header nav {
+    background: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+header nav a {
+    color: #fff;
+    margin: 0 1em;
+    text-decoration: none;
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+}
+
+main h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.trending-anime {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.trending-anime a {
+    display: block;
+}
+
+.trending-anime img {
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.trending-anime img:hover {
+    transform: scale(1.1);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.details {
+    display: none;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#search-box {
+    width: 300px;
+    padding: 10px;
+    border: 2px solid #007bff;
+    border-radius: 25px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+#search-box:focus {
+    border-color: #0056b3;
+    outline: none;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.anime {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.anime h2 {
+    background-color: #007bff;
+    color: #fff;
+    padding: 15px;
+    margin: 0;
+    font-size: 24px;
+    text-align: center;
+}
+
+.anime h2 a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.anime h2 a:hover {
+    text-decoration: underline;
+}
+
+.page-container {
+    border: none;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}

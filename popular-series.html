@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Popular Animes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="popular-series.html">Popular Anime Series</a>
+        </nav>
+    </header>
+    <main>
+	<div class="page-container">
+        <h1>Popular Animes</h1>
+
+        <!-- Search Box -->
+        <div>
+            <input type="text" id="search-box" placeholder="Search for an anime...">
+            <button onclick="searchAnime()">Search</button>
+        </div>
+	<br><br>
+
+        <!-- Naruto -->
+        <section id="anime-1" class="anime">
+            <div class="container">
+                <h2><a href="#" onclick="showDetails('details-naruto')">1. Naruto</a></h2>
+                <div class="price-card">
+                    <img src="https://media.tenor.com/d7GudybW3I8AAAAM/naruto-naruto-uzumaki.gif" width="300" height="300" alt="Naruto">
+                    <h1>Genres: Action, Adventure, Comedy, Martial Arts, Shounen, Super Power</h1>
+                    <h3>Rating: 4.7/5</h3>
+                </div>
+            </div>
+            <div id="details-naruto" class="details">
+                <h2 align="center">Details</h2>
+                <p><b>Japanese:</b> ナルト- 疾風伝</p>
+                <p><b>Synonyms:</b> Naruto Hurricane Chronicles</p>
+                <p><b>Aired:</b> Feb 15, 2007 to Mar 23, 2017</p>
+                <p><b>Duration:</b> 23m</p>
+                <p><b>Status:</b> Finished Airing</p>
+                <p><b>MAL Score:</b> 8.15</p>
+                <p><b>Producers:</b> TV Tokyo, Aniplex, KSS, Rakuonsha, TV Tokyo Music, Shueisha, Studio Pierrot, Viz Media</p>
+                <h3>STORY</h3>
+                <p>It has been two and a half years since Naruto Uzumaki left Konohagakure, the Hidden Leaf Village, for intense training following events which fueled his desire to be stronger. Now Akatsuki, the mysterious organization of elite rogue ninja, is closing in on their grand plan which may threaten the safety of the entire shinobi world.</br></br> Although Naruto is older and sinister events loom on the horizon, he has changed little in personality—still rambunctious and childish—though he is now far more confident and possesses an even greater determination to protect his friends and home. Come whatever may, Naruto will carry on with the fight for what is important to him, even at the expense of his own body, in the continuation of the saga about the boy who wishes to become Hokage. </p>
+                <a href="https://hianime.to/watch/naruto-677?ep=12352" class="cta-button">WATCH HERE</a>
+            </div>
+        </section>        
+        <!-- Jujutsu Kaisen -->
+        <section id="anime-2" class="anime">
+            <div class="container">
+                <h2><a href="#" onclick="showDetails('details-jujutsu')">2. Jujutsu Kaisen</a></h2>
+                <div class="price-card">
+                    <img src="https://media.tenor.com/0oMmFNiRsKcAAAAM/%E5%91%AA%E8%A1%93%E5%BB%BB%E6%88%A6-jujutsu-kaisen.gif" width="300" height="300" alt="Jujutsu Kaisen">
+                    <h1>Genres: Action, Fantasy, Horror, School, Shounen, Supernatural</h1>
+                    <h3>Rating: 4.8/5</h3>
+                </div>
+            </div>
+            <div id="details-jujutsu" class="details">
+                <h2 align="center">Details</h2>
+                <p><b>Japanese:</b> 呪術廻戦</p>
+                <p><b>Synonyms:</b> Sorcery Fight</p>
+                <p><b>Aired:</b> Oct 3, 2020 to Mar 27, 2021</p>
+                <p><b>Duration:</b> 23m</p>
+                <p><b>Status:</b> Finished Airing</p>
+                <p><b>MAL Score:</b> 8.78</p>
+                <p><b>Producers:</b> Mainichi Broadcasting System, Shueisha, dugout</p>
+                <h3>STORY</h3>
+                <p>Idly indulging in baseless paranormal activities with the Occult Club, high schooler Yuuji Itadori spends his days at either the clubroom or the hospital, where he visits his bedridden grandfather. However, this leisurely lifestyle soon takes a turn for the strange when he unknowingly encounters a cursed item.</br></br> Triggering a chain of supernatural occurrences, Yuuji finds himself suddenly thrust into the world of Curses—dreadful beings formed from human malice and negativity—after swallowing the said item, revealed to be a finger belonging to the demon Sukuna Ryoumen, the "King of Curses." Yuuji experiences first-hand the threat these Curses pose to society as he discovers his own newfound powers. Introduced to the Tokyo Metropolitan Jujutsu Technical High School, he begins to walk down a path from which he cannot return—the path of a Jujutsu sorcerer.</p>
+                <a href="https://hianime.to/watch/jujutsu-kaisen-809?ep=2574" class="cta-button">WATCH HERE</a>
+            </div>
+        </section>
+	<!-- One Piece -->
+        <section id="anime-3" class="anime">
+            <div class="container">
+                <h2><a href="#" onclick="showDetails('details-onepiece')">3. One Piece</a></h2>
+                <div class="price-card">
+                    <img src="https://media.tenor.com/svPFxI2M0vwAAAAM/gear-5-gear-5-luffy.gif" width="300" height="300" alt="One Piece">
+                    <h1>Genres: Action Adventure Comedy Drama Fantasy Shounen Super Power</h1>
+                    <h3>Rating: 4.7/5</h3>
+                </div>
+            </div>
+            <div id="details-onepiece" class="details">
+                <h2 align="center">Details</h2>
+                <p><b>Japanese:</b> ONE PIECE</p>
+                <p><b>Synonyms:</b> OP</p>
+                <p><b>Aired:</b> Oct 20, 1999 to ?</p>
+                <p><b>Duration:</b> 24m</p>
+                <p><b>Status:</b> Currently Airing</p>
+                <p><b>MAL Score:</b> 8.62</p>
+                <p><b>Producers:</b> Fuji TV, TAP, Shueisha, Toei Animation, Funimation, 4Kids Entertainment</p>
+                <h3>STORY</h3>
+                <p>Gold Roger was known as the "Pirate King," the strongest and most infamous being to have sailed the Grand Line. The capture and execution of Roger by the World Government brought a change throughout the world. His last words before his death revealed the existence of the greatest treasure in the world, One Piece. </br></br>It was this revelation that brought about the Grand Age of Pirates, men who dreamed of finding One Piece—which promises an unlimited amount of riches and fame—and quite possibly the pinnacle of glory and the title of the Pirate King. Enter Monkey Luffy, a 17-year-old boy who defies your standard definition of a pirate. Rather than the popular persona of a wicked, hardened, toothless pirate ransacking villages for fun, Luffy's reason for being a pirate is one of pure wonder: the thought of an exciting adventure that leads him to intriguing people and ultimately, the promised treasure.</br></br> Following in the footsteps of his childhood hero, Luffy and his crew travel across the Grand Line, experiencing crazy adventures, unveiling dark mysteries and battling strong enemies, all in order to reach the most coveted of all fortunes—One Piece</p>
+                <a href="https://hianime.to/watch/one-piece-100?ep=2142" class="cta-button">WATCH HERE</a>
+            </div>
+        </section>
+	<!-- Dragon Ball -->
+        <section id="anime-4" class="anime">
+            <div class="container">
+                <h2><a href="#" onclick="showDetails('details-dragonball')">4. Dragon Ball</a></h2>
+                <div class="price-card">
+                    <img src="https://media.tenor.com/yL_BJVr-AbwAAAAM/rules-dragon-ball-z.gif" width="300" height="300" alt="Dragon Ball">
+                    <h1>Genres: Action Adventure Comedy Drama Fantasy Shounen Super Power</h1>
+                    <h3>Rating: 4.6/5</h3>
+                </div>
+            </div>
+            <div id="details-dragonball" class="details">
+                <h2 align="center">Details</h2>
+                <p><b>Japanese:</b> ドラゴンボール</p>
+                <p><b>Synonyms:</b> Dragonball, DB</p>
+                <p><b>Aired:</b> Feb 26, 1986 to Apr 12, 1989</p>
+                <p><b>Duration:</b> 24m</p>
+                <p><b>Status:</b> Finished Airing</p>
+                <p><b>MAL Score:</b> 8.02</p>
+                <p><b>Producers:</b> Fuji TV, Toei Animation, Funimation</p>
+                <h3>STORY</h3>
+                <p>SON-Goku is a young boy who lives in the woods all alone—that is, until a girl named Bulma runs into him in her search for a set of magical objects called the "Dragon Balls." Since the artifacts are said to grant one wish to whoever collects all seven, Bulma hopes to gather them and wish for a perfect boyfriend.</br></br> Goku happens to be in possession of a dragon ball, but unfortunately for Bulma, he refuses to part ways with it, so she makes him a deal: he can tag along on her journey if he lets her borrow the dragon ball's power. With that, the two set off on the journey of a lifetime.</br></br> They don't go on the journey alone. On the way, they meet the old Muten-Roshi and wannabe disciple Kuririn, with whom Goku trains to become a stronger martial artist for the upcoming World Martial Arts Tournament. However, it's not all fun and games; the ability to make any wish come true is a powerful one, and there are others who would do much worse than just wishing for a boyfriend. To stop those who would try to abuse the legendary power, they train to become stronger fighters, using their newfound strength to help the people around them along the way.</p>
+                <a href="https://hianime.to/watch/dragon-ball-509?ep=10218" class="cta-button">WATCH HERE</a>
+            </div>
+        </section>
+	<!-- Tokyo Revengers -->
+        <section id="anime-5" class="anime">
+            <div class="container">
+                <h2><a href="#" onclick="showDetails('details-tokyo')">5. Tokyo Revengers</a></h2>
+                <div class="price-card">
+                    <img src="https://media.tenor.com/pLl9i61rWgMAAAAM/boom-tokyo.gif" width="300" height="300" alt="Tokyo Revengers">
+                    <h1>Genres: Action Drama School Shounen</h1>
+                    <h3>Rating: 4.6/5</h3>
+                </div>
+            </div>
+            <div id="details-tokyo" class="details">
+                <h2 align="center">Details</h2>
+                <p><b>Japanese:</b> 東京リベンジャーズ</p>
+                <p><b>Synonyms:</b> Tokyo Revengers TR</p>
+                <p><b>Aired:</b> Apr 11, 2021 to ?</p>
+                <p><b>Duration:</b> 23m</p>
+                <p><b>Status:</b> Finished Airing</p>
+                <p><b>MAL Score:</b> 8.27</p>
+                <p><b>Producers:</b> LIDENFILMS, Pony Canyon</p>
+                <h3>STORY</h3>
+                <p>Takemichi Hanagaki's life is at an all-time low. Just when he thought it couldn't get worse, he finds out that Hinata Tachibana, his ex-girlfriend, was murdered by the Tokyo Manji Gang: a group of vicious criminals that has been disturbing society's peace for quite some time.</br></br> Wondering where it all went wrong, Takemichi suddenly finds himself travelling through time, ending up 12 years in the past—when he was still in a relationship with Hinata. Realizing he has a chance to save her, Takemichi resolves to infiltrate the Tokyo Manji Gang and climb the ranks in order to rewrite the future and save Hinata from her tragic fate.</p>
+                <a href="https://hianime.to/watch/tokyo-revengers-15585?ep=64630" class="cta-button">WATCH HERE</a>
+            </div>
+        </section>
+	<!-- Black Clover -->
+        <section id="anime-6" class="anime">
+            <div class="container">
+                <h2><a href="#" onclick="showDetails('details-blackclover')">6. Black Clover</a></h2>
+                <div class="price-card">
+                    <img src="https://media.tenor.com/ZbHK-fPsFfAAAAAM/black-clover.gif" width="300" height="300" alt="Black Clover">
+                    <h1>Genres: Action Comedy Fantasy Magic Shounen</h1>
+                    <h3>Rating: 4.5/5</h3>
+                </div>
+            </div>
+            <div id="details-blackclover" class="details">
+                <h2 align="center">Details</h2>
+                <p><b>Japanese:</b> ブラッククローバー</p>
+                <p><b>Synonyms:</b> ブラッククローバー</p>
+                <p><b>Aired:</b> Oct 3, 2017 to Mar 30, 2021</p>
+                <p><b>Duration:</b> 23m</p>
+                <p><b>Status:</b> Finished Airing</p>
+                <p><b>MAL Score:</b> 7.29</p>
+                <p><b>Producers:</b> TV Tokyo, Avex Pictures, Shueisha, Studio Pierrot, Funimation, Crunchyroll</p>
+                <h3>STORY</h3>
+                <p>Asta and Yuno were abandoned at the same church on the same day. Raised together as children, they came to know of the "Wizard King"—a title given to the strongest mage in the kingdom—and promised that they would compete against each other for the position of the next Wizard King. However, as they grew up, the stark difference between them became evident.</br></br> While Yuno is able to wield magic with amazing power and control, Asta cannot use magic at all and desperately tries to awaken his powers by training physically. When they reach the age of 15, Yuno is bestowed a spectacular Grimoire with a four-leaf clover, while Asta receives nothing. However, soon after, Yuno is attacked by a person named Lebuty, whose main purpose is to obtain Yuno's Grimoire.</br></br> Asta tries to fight Lebuty, but he is outmatched. Though without hope and on the brink of defeat, he finds the strength to continue when he hears Yuno's voice. Unleashing his inner emotions in a rage, Asta receives a five-leaf clover Grimoire, a "Black Clover" giving him enough power to defeat Lebuty. A few days later, the two friends head out into the world, both seeking the same goal—to become the Wizard King!</p>
+                <a href="https://hianime.to/watch/black-clover-2404?ep=27377" class="cta-button">WATCH HERE</a>
+            </div>
+        </section>
+	<!-- Attack on Titan -->
+        <section id="anime-7" class="anime">
+            <div class="container">
+                <h2><a href="#" onclick="showDetails('details-attack')">7. Attack on Titan</a></h2>
+                <div class="price-card">
+                    <img src="https://media.tenor.com/919Uh3CGwzoAAAAM/aot-hange.gif" width="300" height="300" alt="Attack on Titan">
+                    <h1>Genres: Action Mystery Drama Fantasy Shounen Super Power Military</h1>
+                    <h3>Rating: 4.7/5</h3>
+                </div>
+            </div>
+            <div id="details-attack" class="details">
+                <h2 align="center">Details</h2>
+                <p><b>Japanese:</b> 進撃の巨人</p>
+                <p><b>Synonyms:</b> AoT</p>
+                <p><b>Aired:</b> Apr 7, 2013 to Sep 29, 2013</p>
+                <p><b>Duration:</b> 24m</p>
+                <p><b>Status:</b> Finished Airing</p>
+                <p><b>MAL Score:</b> 8.52</p>
+                <p><b>Producers:</b> Production I.G, Dentsu, Mainichi Broadcasting System, Pony Canyon, Kodansha, Mad Box, Pony Canyon Enterprise, Wit Studio, Funimation</p>
+                <h3>STORY</h3>
+                <p>Centuries ago, mankind was slaughtered to near extinction by monstrous humanoid creatures called titans, forcing humans to hide in fear behind enormous concentric walls. What makes these giants truly terrifying is that their taste for human flesh is not born out of hunger but what appears to be out of pleasure.</br></br> To ensure their survival, the remnants of humanity began living within defensive barriers, resulting in one hundred years without a single titan encounter. However, that fragile calm is soon shattered when a colossal titan manages to breach the supposedly impregnable outer wall, reigniting the fight for survival against the man-eating abominations.</br></br> After witnessing a horrific personal loss at the hands of the invading creatures, Eren Yeager dedicates his life to their eradication by enlisting into the Survey Corps, an elite military unit that combats the merciless humanoids outside the protection of the walls. Based on Hajime Isayama's award-winning manga, Shingeki no Kyojin follows Eren, along with his adopted sister Mikasa Ackerman and his childhood friend Armin Arlert, as they join the brutal war against the titans and race to discover a way of defeating them before the last walls are breached. </p>
+                <a href="https://hianime.to/watch/attack-on-titan-112?ep=3303" class="cta-button">WATCH HERE</a>
+            </div>
+        </section>
+	<!-- Death Note -->
+        <section id="anime-8" class="anime">
+            <div class="container">
+                <h2><a href="#" onclick="showDetails('details-deathnote')">8. Death Note</a></h2>
+                <div class="price-card">
+                    <img src="https://c.tenor.com/KYVGTRWokQoAAAAC/death-note-light-yagami.gif" width="300" height="300" alt="Death Note">
+                    <h1>Genres: Mystery Shounen Supernatural Police Psychological Thriller</h1>
+                    <h3>Rating: 4.7/5</h3>
+                </div>
+            </div>
+            <div id="details-deathnote" class="details">
+                <h2 align="center">Details</h2>
+                <p><b>Japanese:</b> デスノート</p>
+                <p><b>Synonyms:</b> DN</p>
+                <p><b>Aired:</b> Oct 4, 2006 to Jun 27, 2007</p>
+                <p><b>Duration:</b> 23m</p>
+                <p><b>Status:</b> Finished Airing</p>
+                <p><b>MAL Score:</b> 8.63</p>
+                <p><b>Producers:</b> VAP, Konami, Ashi Production, Nippon Television Network, Shueisha, Madhouse, Viz Media</p>
+                <h3>STORY</h3>
+                <p>A shinigami, as a god of death, can kill any person—provided they see their victim's face and write their victim's name in a notebook called a Death Note. One day, Ryuk, bored by the shinigami lifestyle and interested in seeing how a human would use a Death Note, drops one into the human realm.</br></br> High school student and prodigy Light Yagami stumbles upon the Death Note and—since he deplores the state of the world—tests the deadly notebook by writing a criminal's name in it. When the criminal dies immediately following his experiment with the Death Note, Light is greatly surprised and quickly recognizes how devastating the power that has fallen into his hands could be. With this divine capability, Light decides to extinguish all criminals in order to build a new world where crime does not exist and people worship him as a god.</br></br> Police, however, quickly discover that a serial killer is targeting criminals and, consequently, try to apprehend the culprit. To do this, the Japanese investigators count on the assistance of the best detective in the world: a young and eccentric man known only by the name of L. </p>
+                <a href="https://hianime.to/watch/death-note-60?ep=1464" class="cta-button">WATCH HERE</a>
+            </div>
+        </section>
+	<!-- Demon Slayer -->
+        <section id="anime-9" class="anime">
+            <div class="container">
+                <h2><a href="#" onclick="showDetails('details-demonslayer')">9. Demon Slayer</a></h2>
+                <div class="price-card">
+                    <img src="https://i1.wp.com/qph.fs.quoracdn.net/main-qimg-c6d7285b9ef182322dcdceaee6ec9f83" width="300" height="300" alt="Demon Slayer">
+                    <h1>Genres: Action Demons Historical Shounen Supernatural</h1>
+                    <h3>Rating: 4.7/5</h3>
+                </div>
+            </div>
+            <div id="details-demonslayer" class="details">
+                <h2 align="center">Details</h2>
+                <p><b>Japanese:</b> 鬼滅の刃</p>
+                <p><b>Synonyms:</b> Blade of Demon Destruction</p>
+                <p><b>Aired:</b> Apr 6, 2019 to Sep 28, 2019</p>
+                <p><b>Duration:</b> 23m</p>
+                <p><b>Status:</b> Finished Airing</p>
+                <p><b>MAL Score:</b> 8.57</p>
+                <p><b>Producers:</b> Aniplex, Shueisha, ufotable, Aniplex of America</p>
+                <h3>STORY</h3>
+                <p>Ever since the death of his father, the burden of supporting the family has fallen upon Tanjirou Kamado's shoulders. Though living impoverished on a remote mountain, the Kamado family are able to enjoy a relatively peaceful and happy life. One day, Tanjirou decides to go down to the local village to make a little money selling charcoal. </br</br>On his way back, night falls, forcing Tanjirou to take shelter in the house of a strange man, who warns him of the existence of flesh-eating demons that lurk in the woods at night. When he finally arrives back home the next day, he is met with a horrifying sight—his whole family has been slaughtered. Worse still, the sole survivor is his sister Nezuko, who has been turned into a bloodthirsty demon.</br></br> Consumed by rage and hatred, Tanjirou swears to avenge his family and stay by his only remaining sibling. Alongside the mysterious group calling themselves the Demon Slayer Corps, Tanjirou will do whatever it takes to slay the demons and protect the remnants of his beloved sister's humanity. </p>
+                <a href="https://hianime.to/watch/demon-slayer-kimetsu-no-yaiba-47?ep=1279" class="cta-button">WATCH HERE</a>
+            </div>
+        </section>
+	<!-- Bleach -->
+        <section id="anime-10" class="anime">
+            <div class="container">
+                <h2><a href="#" onclick="showDetails('details-bleach')">10. Bleach</a></h2>
+                <div class="price-card">
+                    <img src="https://media.tenor.com/aY85Lg-3qrwAAAAM/bleach.gif" width="300" height="300" alt="Bleach">
+                    <h1>Genres: Action Adventure Comedy Shounen Super Power Supernatural</h1>
+                    <h3>Rating: 4.4/5</h3>
+                </div>
+            </div>
+            <div id="details-bleach" class="details">
+                <h2 align="center">Details</h2>
+                <p><b>Japanese:</b> BLEACH - ブリーチ -</p>
+                <p><b>Synonyms:</b> BLEACH</p>
+                <p><b>Aired:</b> Oct 5, 2004 to Mar 27, 2012</p>
+                <p><b>Duration:</b> 24m</p>
+                <p><b>Status:</b> Finished Airing</p>
+                <p><b>MAL Score:</b> 7.8</p>
+                <p><b>Producers:</b> TV Tokyo, Aniplex, Dentsu, TV Tokyo Music, Studio Kelmadick, Shueisha, Studio Pierrot, Viz Media</p>
+                <h3>STORY</h3>
+                <p>Ichigo Kurosaki is an ordinary high schooler—until his family is attacked by a Hollow, a corrupt spirit that seeks to devour human souls. It is then that he meets a Soul Reaper named Rukia Kuchiki, who gets injured while protecting Ichigo's family from the assailant. To save his family, Ichigo accepts Rukia's offer of taking her powers and becomes a Soul Reaper as a result.</br></br> However, as Rukia is unable to regain her powers, Ichigo is given the daunting task of hunting down the Hollows that plague their town. However, he is not alone in his fight, as he is later joined by his friends—classmates Orihime Inoue, Yasutora Sado, and Uryuu Ishida—who each have their own unique abilities. As Ichigo and his comrades get used to their new duties and support each other on and off the battlefield, the young Soul Reaper soon learns that the Hollows are not the only real threat to the human world. </p>
+                <a href="https://hianime.to/watch/bleach-806?ep=13793" class="cta-button">WATCH HERE</a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Anime World. All rights reserved.</p>
+    </footer>
+    <script src="scripts.js"></script>
+</div>
+</body>
+</html>
