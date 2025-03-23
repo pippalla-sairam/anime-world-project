@@ -15,3 +15,4 @@ Frontend: HTML, CSS, JavaScript
 
 Version Control: Git
 
+https://sairam76.github.io/anime-world-project/
