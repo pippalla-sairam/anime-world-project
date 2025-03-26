@@ -19,8 +19,8 @@ A web-based platform for anime lovers to explore, search, and discover details a
 Clone the repository:
 
    ```sh
-   git clone https://github.com/your-username/anime-world.git
-   cd anime-world
+   git clone https://github.com/pippalla-sairam/anime-world-project.git
+   cd anime-world-project
    ```
 
 Open `index.html` in a browser to access the platform.
