@@ -1,4 +1,4 @@
-# Anime World 🌏🎌
+# Anime World
 
 A web-based platform for anime lovers to explore, search, and discover details about their favorite anime series, characters, and genres. Users can browse popular anime, get recommendations, and stay updated on the latest anime trends.
 
