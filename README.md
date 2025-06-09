@@ -31,13 +31,6 @@ Open `index.html` in a browser to access the platform.
 - Browse trending anime and explore genres.
 - View anime and character details.
 
-## Future Enhancements
-
-- **User Authentication:** Allow users to log in and save their favorite anime.
-- **Reviews & Ratings:** Enable users to rate and review anime.
-- **Anime Recommendations:** Provide AI-based personalized anime suggestions.
-- **Dark Mode:** Toggle between light and dark themes.
-
 ## Contributing
 
 Contributions are welcome! Feel free to submit a pull request.
